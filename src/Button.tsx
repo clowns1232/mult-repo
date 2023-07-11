@@ -1,13 +1,13 @@
-const Button = () => {
+"use client";
+
+export const Button = () => {
   return (
     <button
       onClick={() => {
-        alert("여긴 다른 레포입니다.");
+        alert("서브모듈 테스트");
       }}
     >
       서브모듈 테스트
     </button>
   );
 };
-
-export default Button;
