@@ -7,7 +7,7 @@ export const Button = () => {
         alert("서브모듈 테스트");
       }}
     >
-      서브모듈 테스트
+      서브모듈 테스트 test
     </button>
   );
 };
